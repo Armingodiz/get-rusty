@@ -10,3 +10,7 @@ serde_json = "1.0"
 dotenv = "0.15"
 sqlx = { version = "0.6", features = ["sqlite", "runtime-actix-native-tls"] }
 tokio = { version = "1", features = ["full"] }
+
+
+[build-dependencies]
+dotenv = "0.15"
