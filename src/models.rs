@@ -3,13 +3,13 @@ use sqlx::FromRow;
 
 #[derive(Serialize, Deserialize, FromRow)]
 pub struct Book {
-    pub id: i32,
+    pub id: i64,
     pub title: String,
     pub author: String,
-    pub published_year: i32,
+    pub published_year: i64,
 }
 
-#[derive(Deserialize)]
+#[derive(Serialize, Deserialize)]
 pub struct CreateBook {
     pub title: String,
     pub author: String,
