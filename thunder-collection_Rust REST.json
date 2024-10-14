@@ -1,0 +1,86 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Rust REST",
+    "collectionId": "44df8592-0e57-41db-b31e-d605575a5314",
+    "dateExported": "2024-10-14T10:52:45.401Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e976d6aa-c5d9-436d-b674-531f0fd8a310",
+            "colId": "44df8592-0e57-41db-b31e-d605575a5314",
+            "containerId": "",
+            "name": "Get Created Sample",
+            "url": "http://127.0.0.1:8080/books/1",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-10-14T08:39:35.228Z",
+            "modified": "2024-10-14T08:44:07.374Z",
+            "headers": []
+        },
+        {
+            "_id": "042de00a-829b-468d-a50b-fb90481f7b62",
+            "colId": "44df8592-0e57-41db-b31e-d605575a5314",
+            "containerId": "",
+            "name": "Create Book",
+            "url": "http://127.0.0.1:8080/books",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-10-14T08:39:46.057Z",
+            "modified": "2024-10-14T08:40:40.638Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Rust Advanced\",\n  \"author\": \"John Doe\",\n  \"published_year\": 2024\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "2a23cf87-c4c1-4c5d-a641-a6db95d2887a",
+            "colId": "44df8592-0e57-41db-b31e-d605575a5314",
+            "containerId": "",
+            "name": "Get All",
+            "url": "http://127.0.0.1:8080/books",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-10-14T08:40:54.415Z",
+            "modified": "2024-10-14T08:41:01.794Z",
+            "headers": []
+        },
+        {
+            "_id": "0cb38cee-c40a-4400-82e7-c81a52216439",
+            "colId": "44df8592-0e57-41db-b31e-d605575a5314",
+            "containerId": "",
+            "name": "Delete",
+            "url": "http://127.0.0.1:8080/books/2",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-10-14T08:42:28.083Z",
+            "modified": "2024-10-14T08:42:47.641Z",
+            "headers": []
+        },
+        {
+            "_id": "6243cef0-3d07-469b-9387-7019e42779d0",
+            "colId": "44df8592-0e57-41db-b31e-d605575a5314",
+            "containerId": "",
+            "name": "Update",
+            "url": "http://127.0.0.1:8080/books/1",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2024-10-14T08:43:03.223Z",
+            "modified": "2024-10-14T08:43:22.848Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Rust Advanced\",\n  \"author\": \"John Doe\",\n  \"published_year\": 2024\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "xcIS21stCrzSvt6wtghUZ2H09iHflgujAnL3dlUMIglqlC5oro7yL57Zb7ZDkcV6uwr3FZ32z4eTZTxtY-jobQ"
+}
