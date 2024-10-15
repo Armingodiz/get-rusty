@@ -18,7 +18,6 @@ use hello_world::greeter_server::GreeterServer;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    // **Set up the gRPC server future**
     let addr = "[::1]:50051".parse()?;
     let greeter = MyGreeter::default();
 
