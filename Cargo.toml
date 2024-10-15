@@ -18,6 +18,11 @@ dotenv = "0.15"
 tonic-build = "0.12"
 
 
-[[bin]] # Bin to run the HelloWorld gRPC client
+[[bin]] # Bin to run the app
 name = "app"
 path = "src/main.rs"
+
+
+[[bin]] # Bin to run the HelloWorld gRPC client
+name = "helloworld-client"
+path = "src/grpc-client.rs"
