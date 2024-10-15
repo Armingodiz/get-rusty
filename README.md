@@ -15,8 +15,7 @@ This guide provides resources and examples to help you learn Rust, covering basi
 
 - **Tokio Framework**: Explore asynchronous programming using the Tokio framework, including a project to build a mini Redis clone.
   - [Tokio](https://tokio.rs/)
-  - **Example**: [main.rs](https://github.com/Armingodiz/get-rusty/blob/master/src/main.rs)
-    - *Note*: TODO—refactor the location of the async array sum-up functions.
+  - **Example**: [main.rs](https://github.com/Armingodiz/get-rusty/blob/master/src/lib.rs)
 
 ## REST API Development
 
