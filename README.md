@@ -16,6 +16,7 @@ This guide provides resources and examples to help you learn Rust, covering basi
 - **Tokio Framework**: Explore asynchronous programming using the Tokio framework, including a project to build a mini Redis clone.
   - [Tokio](https://tokio.rs/)
   - **Example**: [lib.rs](https://github.com/Armingodiz/get-rusty/blob/master/src/lib.rs)
+  - You will probably need to read [shared-mutable-state](https://draft.ryhl.io/blog/shared-mutable-state/), because the shared-state section in the tokio mini redis is hard to follow
 
 ## REST API Development
 
