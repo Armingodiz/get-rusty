@@ -1,0 +1,33 @@
+
+
+struct User {
+    email: String, 
+    username: String, 
+    active: bool
+}
+
+fn main() {
+    let mut s = String::from("hello");
+    let r1 = &s; // no problem
+    let r2 = &s; // no problem
+    println!("{r1} and {r2}");
+    // Variables r1 and r2 will not be used after this point.
+    let r3 = &mut s; // no problem
+    println!("{r3}");
+
+    let user1 = User{
+        email: String::from("email.com"),
+        username: String::from("armin"),
+        active: true
+    };
+
+    println!("{0}", user1.email);
+
+    let user2 = User{
+        email: String::from("email2.com"),
+        ..user1
+    };
+
+    println!("{0}", user1.email);
+    println!("{0}", user1.username);
+}
