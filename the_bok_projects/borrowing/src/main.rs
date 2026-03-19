@@ -29,5 +29,4 @@ fn main() {
     };
 
     println!("{0}", user1.email);
-    println!("{0}", user1.username);
 }
